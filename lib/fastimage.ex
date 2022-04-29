@@ -206,7 +206,7 @@ defmodule Fastimage do
       {:error, %Error{} = error} ->
         {:error, error}
         
-      _ -> {:error, "Error processing url"}  
+      _error -> {:error, "Error processing url"}  
     end
   end
 
